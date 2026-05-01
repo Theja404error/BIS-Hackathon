@@ -1,0 +1,25 @@
+# Core RAG
+sentence-transformers==3.0.1
+rank-bm25==0.2.2
+faiss-cpu==1.8.0
+numpy==1.26.4
+
+# PDF parsing (input)
+pdfplumber==0.11.4
+pypdf==4.3.1
+
+# PDF generation (output reports)
+reportlab==4.2.5
+
+# LLM
+groq>=0.13.0
+google-generativeai==0.7.2
+httpx>=0.27.2,<0.28
+
+# UI for demo
+streamlit==1.38.0
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.66.5
+pydantic==2.8.2
